@@ -3,7 +3,8 @@
 #   Install git-hg <https://github.com/cosmin/git-hg> and make sure that the
 #   ./bin/ directory is in the path.
 #   $ cd ~/software/libadjoint/
-#   $ git-hg clone ssh://hg@bitbucket.org/dolfin-adjoint/libadjoint
+#   $ git-hg clone ssh://hg@bitbucket.org/dolfin-adjoint/libadjoint source
+#   $ cd source/
 #   $ git remote add github git@github.com:nschloe/libadjoint.git
 #
 

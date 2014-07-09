@@ -1,7 +1,7 @@
 #! /bin/sh
 
 # Preparation:
-#   $ git clone https://software.sandia.gov/trilinos/repositories/publicTrilinos
+#   $ GIT_SSL_NO_VERIFY=1 git clone https://software.sandia.gov/trilinos/repositories/publicTrilinos
 #   $ git remote add github git@github.com:nschloe/trilinos.git
 
 # Set SSH agent variables.
