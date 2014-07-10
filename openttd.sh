@@ -13,4 +13,4 @@ cd ${HOME}/software/openttd/git-svn
 git svn fetch || exit 1
 git svn rebase || exit 1
 # Push to GitHub.
-git push github master --tags || exit 1
+git push github master --tags -q || exit 1

@@ -14,4 +14,4 @@ cd ${HOME}/software/dolfin-adjoint/da-applications/
 # Pull from BitBucket.
 git-hg pull || exit 1
 # Push to GitHub.
-git push github master --tags || exit 1
+git push github master --tags -q || exit 1

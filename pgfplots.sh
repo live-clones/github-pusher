@@ -12,4 +12,4 @@ cd ${HOME}/software/pgfplots/bare-source
 # Pull from sourceforge.
 git fetch -p origin || exit 1
 # Push to GitHub.
-git push --mirror || exit 1
+git push --mirror -q || exit 1
