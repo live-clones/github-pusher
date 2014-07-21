@@ -7,7 +7,7 @@
 # Set SSH agent variables.
 eval $(cat $HOME/.ssh/agent/info)
 
-cd ${HOME}/software/trilinos/dev/publicTrilinos/
+cd ${HOME}/software/trilinos/publicTrilinos/
 #GIT_SSL_NO_VERIFY=1 git pull origin master -q || exit 1
 GIT_SSL_NO_VERIFY=1 git fetch -p origin || exit 1
 git push github master --tags -q || exit 1
