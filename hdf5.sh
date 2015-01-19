@@ -1,3 +1,4 @@
+#!/bin/sh -ue
 #
 # Preparation:
 #   $ git svn clone https://svn.hdfgroup.uiuc.edu/hdf5/trunk/
@@ -7,9 +8,9 @@
 # Set SSH agent variables.
 eval $(cat $HOME/.ssh/agent/info)
 
-cd ${HOME}/software/hdf5/dev/git-svn || exit 1
+cd ${HOME}/software/hdf5/dev/git-svn
 # Pull from wherever.
-git svn fetch || exit 1
-git svn rebase || exit 1
+git svn fetch
+git svn rebase
 # Push to GitHub.
-git push github master --tags -q || exit 1
+git push github master --tags -q

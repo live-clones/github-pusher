@@ -1,7 +1,11 @@
+#!/bin/sh -ue
 #
 # Preparation:
-#   $ git svn clone svn://svn.openttd.org git-svn
+#   $ git svn clone svn://svn.openttd.org/trunk git-svn
 #   $ cd git-svn
+#   $ git svn fetch # if the above aborts
+#   $ git svn fetch
+#   $ ...
 #   $ git remote add github git@github.com:nschloe/openttd.git
 #
 
@@ -10,7 +14,7 @@ eval $(cat $HOME/.ssh/agent/info)
 
 cd ${HOME}/software/openttd/git-svn
 # Pull.
-git svn fetch || exit 1
-git svn rebase || exit 1
+git svn fetch
+git svn rebase
 # Push to GitHub.
-git push github master --tags -q || exit 1
+git push github master --tags -q

@@ -1,3 +1,4 @@
+#!/bin/sh -ue
 #
 # https://foundry.supelec.fr/scm/?group_id=10
 #
@@ -11,7 +12,7 @@ eval $(cat $HOME/.ssh/agent/info)
 
 cd ${HOME}/software/luatex/git-svn
 # Pull from wherever.
-git svn fetch || exit 1
-git svn rebase || exit 1
+git svn fetch
+git svn rebase
 # Push to GitHub.
-git push github master --tags -q || exit 1
+git push github master --tags -q

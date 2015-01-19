@@ -1,3 +1,4 @@
+#!/bin/sh -ue
 #
 # Preparation:
 #   Install git-hg <https://github.com/cosmin/git-hg> and make sure that the
@@ -13,6 +14,6 @@ eval $(cat $HOME/.ssh/agent/info)
 
 cd ${HOME}/software/vim/git-hg/
 # Pull from BitBucket.
-git-hg pull || exit 1
+git-hg pull
 # Push to GitHub.
-git push github master --tags -q || exit 1
+git push github master --tags -q
