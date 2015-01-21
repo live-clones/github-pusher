@@ -6,7 +6,7 @@
 #   $ cd ~/software/dolfin-adjoint/dev/
 #   $ git-hg clone ssh://hg@bitbucket.org/dolfin-adjoint/dolfin-adjoint
 #   $ cd dolfin-adjoint/
-#   $ git remote add github git@github.com:nschloe/dolfin-adjoint.git
+#   $ git remote add github git@github.com:live-clones/dolfin-adjoint.git
 #
 
 # Set SSH agent variables.

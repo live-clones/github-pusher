@@ -5,7 +5,7 @@
 #   ./bin/ directory is in the path.
 #   $ cd ~/software/dolfin-adjoint/
 #   $ git-hg clone ssh://hg@bitbucket.org/dolfin-adjoint/da-applications
-#   $ git remote add github git@github.com:nschloe/da-applications.git
+#   $ git remote add github git@github.com:live-clones/da-applications.git
 #
 
 # Set SSH agent variables.

@@ -6,7 +6,7 @@
 #   $ cd ~/software/vim/
 #   $ git-hg clone https://code.google.com/p/vim/ git-hg/
 #   $ cd git-hg
-#   $ git remote add github git@github.com:nschloe/vim.git
+#   $ git remote add github git@github.com:live-clones/vim.git
 #
 
 # Set SSH agent variables.

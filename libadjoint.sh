@@ -6,7 +6,7 @@
 #   $ cd ~/software/libadjoint/
 #   $ git-hg clone ssh://hg@bitbucket.org/dolfin-adjoint/libadjoint source
 #   $ cd source/
-#   $ git remote add github git@github.com:nschloe/libadjoint.git
+#   $ git remote add github git@github.com:live-clones/libadjoint.git
 #
 
 # Set SSH agent variables.

@@ -3,7 +3,7 @@
 # Preparation:
 #   $ git svn clone http://svn.code.sf.net/p/netgen-mesher/code/netgen git-svn
 #   $ cd git-svn
-#   $ git remote add github git@github.com:nschloe/NETGEN.git
+#   $ git remote add github git@github.com:live-clones/netgen.git
 #
 
 # Set SSH agent variables.

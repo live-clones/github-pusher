@@ -3,7 +3,7 @@
 # Preparation:
 #   $ git clone --mirror git://git.code.sf.net/p/pgfplots/code pgfplots-code
 #   $ cd pgfplots-code
-#   $ git remote set-url --push origin git@github.com:nschloe/pgfplots.git
+#   $ git remote set-url --push origin git@github.com:live-clones/pgfplots.git
 #
 
 # Set SSH agent variables.

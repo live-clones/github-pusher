@@ -2,7 +2,7 @@
 #
 # Preparation:
 #   $ git svn clone https://svn.hdfgroup.uiuc.edu/hdf5/trunk/
-#   $ git remote add github git@github.com:nschloe/hdf5.git
+#   $ git remote add github git@github.com:live-clones/hdf5.git
 #
 
 # Set SSH agent variables.

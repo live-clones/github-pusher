@@ -4,7 +4,7 @@
 #
 # Preparation:
 #   $ git svn clone https://foundry.supelec.fr/svn/luatex/trunk
-#   $ git remote add github git@github.com:nschloe/luatex.git
+#   $ git remote add github git@github.com:live-clones/luatex.git
 #
 
 # Set SSH agent variables.

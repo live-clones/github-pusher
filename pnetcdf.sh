@@ -2,7 +2,7 @@
 #
 # Preparation:
 #   $ git svn clone https://svn.mcs.anl.gov/repos/parallel-netcdf/trunk
-#   $ git remote add github git@github.com:nschloe/pnetcdf.git
+#   $ git remote add github git@github.com:live-clones/pnetcdf.git
 #
 
 # Set SSH agent variables.

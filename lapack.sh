@@ -2,7 +2,7 @@
 #
 # Preparation:
 #   $ git svn clone https://icl.cs.utk.edu/svn/lapack-dev/lapack/trunk
-#   $ git remote add github git@github.com:nschloe/lapack.git
+#   $ git remote add github git@github.com:live-clones/lapack.git
 #
 
 # Set SSH agent variables.

@@ -6,7 +6,7 @@
 #   $ git svn fetch # if the above aborts
 #   $ git svn fetch
 #   $ ...
-#   $ git remote add github git@github.com:nschloe/openttd.git
+#   $ git remote add github git@github.com:live-clones/openttd.git
 #
 
 # Set SSH agent variables.

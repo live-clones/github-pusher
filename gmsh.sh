@@ -3,7 +3,7 @@
 # Preparation:
 #   $ git svn clone https://geuz.org/svn/gmsh/trunk git-svn
 #   $ cd git-svn
-#   $ git remote add github git@github.com:nschloe/gmsh.git
+#   $ git remote add github git@github.com:live-clones/gmsh.git
 #
 
 # Set SSH agent variables.
