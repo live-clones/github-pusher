@@ -8,7 +8,7 @@
 # Set SSH agent variables.
 eval $(cat $HOME/.ssh/agent/info)
 
-cd ${HOME}/software/hdf5/dev/git-svn
+cd ${HOME}/software/hdf5/git-svn
 # Pull from wherever.
 git svn fetch
 git svn rebase
