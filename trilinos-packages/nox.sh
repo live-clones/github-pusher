@@ -12,6 +12,6 @@ eval $(cat $HOME/.ssh/agent/info)
 cd ${HOME}/software/trilinos/publicTrilinos/
 GIT_SSL_NO_VERIFY=1 git pull origin master -q
 # extract all NOX commits into branch nox
-#git subtree split -P packages/nox -b nox
+git subtree split -P packages/nox -b nox
 # push to github
 git push github-nox nox:master
