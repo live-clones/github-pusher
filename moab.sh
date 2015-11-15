@@ -7,9 +7,9 @@
 #
 
 # Set SSH agent variables.
-eval $(cat $HOME/.ssh/agent/info)
+. "$HOME/.keychain/$(/bin/hostname)-sh"
 
-cd ${HOME}/software/moab/bare-source
+cd "$HOME/software/moab/bare-source" || exit 1
 # Pull from bitbucket.
 git fetch -p -q origin
 # Push to GitHub.

@@ -6,10 +6,9 @@
 #
 
 # Set SSH agent variables.
-eval $(cat $HOME/.ssh/agent/info)
+. "$HOME/.keychain/$(/bin/hostname)-sh"
 
-
-cd ${HOME}/software/trilinos/publicTrilinos/
+cd "$HOME/software/trilinos/publicTrilinos/" || exit 1
 GIT_SSL_NO_VERIFY=1 git pull origin master -q
 # extract all NOX commits into branch nox
 git subtree split -P packages/belos -b belos

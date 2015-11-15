@@ -6,7 +6,7 @@
 #
 
 # Set SSH agent variables.
-eval $(cat $HOME/.ssh/agent/info)
+. "$HOME/.keychain/$(/bin/hostname)-sh"
 
 cd ${HOME}/software/hdf5/git-svn
 # Pull from wherever.

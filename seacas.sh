@@ -7,9 +7,9 @@
 #
 
 # Set SSH agent variables.
-eval $(cat $HOME/.ssh/agent/info)
+. "$HOME/.keychain/$(/bin/hostname)-sh"
 
-cd ${HOME}/software/seacas/pristine
+cd "$HOME/software/seacas/pristine" || exit 1
 # Pull from bitbucket.
 git fetch -p origin
 # Push to GitHub.

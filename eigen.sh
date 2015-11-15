@@ -20,9 +20,9 @@
 #
 
 # Set SSH agent variables.
-eval $(cat $HOME/.ssh/agent/info)
+. "$HOME/.keychain/$(/bin/hostname)-sh"
 
-cd ${HOME}/software/eigen/upstream/
+cd "$HOME/software/eigen/upstream/" || exit 1
 # Pull from BitBucket and merge it into git
 hg pull -q
 hg gexport

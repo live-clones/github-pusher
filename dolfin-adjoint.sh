@@ -10,7 +10,7 @@
 #
 
 # Set SSH agent variables.
-eval $(cat $HOME/.ssh/agent/info)
+. "$HOME/.keychain/$(/bin/hostname)-sh"
 
 cd ${HOME}/software/dolfin-adjoint/dev/dolfin-adjoint/
 # Pull from BitBucket.

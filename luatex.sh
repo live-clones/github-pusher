@@ -8,9 +8,10 @@
 #
 
 # Set SSH agent variables.
-eval $(cat $HOME/.ssh/agent/info)
+. "$HOME/.keychain/$(/bin/hostname)-sh"
 
-cd ${HOME}/software/luatex/git-svn
+cd "${HOME}/software/luatex/git-svn" || exit 1
+
 # Pull from wherever.
 git svn fetch
 git svn rebase

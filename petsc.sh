@@ -7,7 +7,7 @@
 #
 
 # Set SSH agent variables.
-eval $(cat $HOME/.ssh/agent/info)
+. "$HOME/.keychain/$(/bin/hostname)-sh"
 
 cd ${HOME}/software/petsc/bare-source
 # Pull from bitbucket.

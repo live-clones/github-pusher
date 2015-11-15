@@ -7,9 +7,9 @@
 #
 
 # Set SSH agent variables.
-eval $(cat $HOME/.ssh/agent/info)
+. "$HOME/.keychain/$(/bin/hostname)-sh"
 
-cd ${HOME}/software/gmsh/git-svn
+cd "$HOME/software/gmsh/git-svn" || exit 1
 # Pull.
 git svn fetch
 git svn rebase

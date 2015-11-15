@@ -6,7 +6,7 @@
 #
 
 # Set SSH agent variables.
-eval $(cat $HOME/.ssh/agent/info)
+. "$HOME/.keychain/$(/bin/hostname)-sh"
 
 cd ${HOME}/software/trilinos/publicTrilinos/
 GIT_SSL_NO_VERIFY=1 git pull origin master -q
