@@ -1,7 +1,7 @@
 #!/bin/sh -ue
 #
 # Preparation:
-#   $ GIT_SSL_NO_VERIFY=1 git clone https://software.sandia.gov/trilinos/repositories/publicTrilinos
+#   $ git clone https://software.sandia.gov/trilinos/repositories/source-upstream
 #   $ git remote add github-muelu git@github.com:trilinos/muelu.git
 #
 
@@ -9,8 +9,8 @@
 . "$HOME/.keychain/$(/bin/hostname)-sh"
 
 
-cd ${HOME}/software/trilinos/publicTrilinos/
-GIT_SSL_NO_VERIFY=1 git pull origin master -q
+cd "${HOME}/software/trilinos/source-upstream/" || exit 1
+git pull origin master -q
 # extract all NOX commits into branch nox
 git subtree split -P packages/muelu -b muelu
 # push to github
