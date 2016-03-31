@@ -1,17 +1,16 @@
 #!/bin/sh -ue
 #
 # Preparation:
-#   $ git svn clone http://svn.code.sf.net/p/netgen-mesher/code/netgen git-svn
-#   $ cd git-svn
-#   $ git remote add github git@github.com:live-clones/netgen.git
+#   $ git clone --mirror git://git.code.sf.net/p/netgen-mesher/git bare-source
+#   $ cd bare-source
+#   $ git remote set-url --push origin git@github.com:live-clones/netgen.git
 #
 
 # Set SSH agent variables.
 . "$HOME/.keychain/$(/bin/hostname)-sh"
 
-cd ${HOME}/software/netgen/git-svn
-# Pull.
-git svn fetch
-git svn rebase
+cd "$HOME/software/netgen/bare-source" || exit 1
+# Pull from bitbucket.
+git fetch -p -q origin
 # Push to GitHub.
-git push github master --tags -q
+git push --mirror -q
