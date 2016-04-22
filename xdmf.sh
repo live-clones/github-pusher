@@ -1,7 +1,7 @@
 #!/bin/sh -ue
 #
 # Preparation:
-#   $ git clone --mirror git://public.kitware.com/Xdmf2.git bare-source
+#   $ git clone --mirror git://public.kitware.com/Xdmf.git bare-source
 #   $ cd bare-source
 #   $ git remote set-url --push origin git@github.com:live-clones/xdmf.git
 #
