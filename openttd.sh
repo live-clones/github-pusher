@@ -1,20 +1,16 @@
 #!/bin/sh -ue
 #
 # Preparation:
-#   $ git svn clone svn://svn.openttd.org/trunk git-svn
-#   $ cd git-svn
-#   $ git svn fetch # if the above aborts
-#   $ git svn fetch
-#   $ ...
-#   $ git remote add github git@github.com:live-clones/openttd.git
+#   $ git clone --mirror http://git.openttd.org/openttd/trunk.git/ bare-source
+#   $ cd bare-source
+#   $ git remote set-url --push origin git@github.com:live-clones/openttd.git
 #
 
 # Set SSH agent variables.
 . "$HOME/.keychain/$(/bin/hostname)-sh"
 
-cd ${HOME}/software/openttd/git-svn
-# Pull.
-git svn fetch
-git svn rebase
+cd "$HOME/software/openttd/bare-source" || exit 1
+# Pull from bitbucket.
+git fetch -p -q origin
 # Push to GitHub.
-git push github master --tags -q
+git push --mirror -q

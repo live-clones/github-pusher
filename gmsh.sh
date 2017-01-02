@@ -1,7 +1,7 @@
 #!/bin/sh -ue
 #
 # Preparation:
-#   $ git svn clone https://geuz.org/svn/gmsh/trunk git-svn
+#   $ git svn clone --authors-prog authors.sh https://geuz.org/svn/gmsh/trunk git-svn
 #   $ cd git-svn
 #   $ git remote add github git@github.com:live-clones/gmsh.git
 #
