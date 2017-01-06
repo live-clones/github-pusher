@@ -31,6 +31,11 @@ clone2git \
   "https://bitbucket.hdfgroup.org/scm/hdffv/hdf5.git" \
   "git@github.com:live-clones/hdf5.git"
 
+# libadjoint
+clone2git \
+  "https://nschloe@bitbucket.org/dolfin-adjoint/libadjoint.git" \
+  "git@github.com:live-clones/libadjoint.git"
+
 # # MOAB
 # clone2git \
 #   "git@bitbucket.org:fathomteam/moab.git" \
