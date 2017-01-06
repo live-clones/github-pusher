@@ -31,6 +31,11 @@ clone2git \
   "https://bitbucket.hdfgroup.org/scm/hdffv/hdf5.git" \
   "git@github.com:live-clones/hdf5.git"
 
+# Netgen
+clone2git \
+  "git://git.code.sf.net/p/netgen-mesher/git" \
+  "git@github.com:live-clones/netgen.git"
+
 # # Pgfplots
 # clone2git \
 #   "git://git.code.sf.net/p/pgfplots/code" \
