@@ -31,10 +31,20 @@ clone2git \
   "https://bitbucket.hdfgroup.org/scm/hdffv/hdf5.git" \
   "git@github.com:live-clones/hdf5.git"
 
+# # MOAB
+# clone2git \
+#   "git@bitbucket.org:fathomteam/moab.git" \
+#   "git@github.com:live-clones/moab.git"
+
 # Netgen
 clone2git \
   "git://git.code.sf.net/p/netgen-mesher/git" \
   "git@github.com:live-clones/netgen.git"
+
+# OpenTTD
+clone2git \
+  "http://git.openttd.org/openttd/trunk.git/" \
+  "git@github.com:live-clones/openttd.git"
 
 # # Pgfplots
 # clone2git \
