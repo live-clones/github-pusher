@@ -26,20 +26,20 @@ clone2git() {
 #   "https://geuz.org/svn/gmsh/trunk" \
 #   "git@github.com:live-clones/gmsh.git"
 
-# # luatex
-# # https://foundry.supelec.fr/scm/?group_id=10
-# # username: anonsvn
-# # password: anonsvn
-# clone2git \
-#   "https://foundry.supelec.fr/svn/luatex/trunk" \
-#   "git@github.com:live-clones/luatex.git"
+# luatex
+# https://foundry.supelec.fr/scm/?group_id=10
+# username: anonsvn
+# password: anonsvn
+clone2git \
+  "https://foundry.supelec.fr/svn/luatex/trunk" \
+  "git@github.com:live-clones/luatex.git"
 
-# # pnetcdf
-# clone2git \
-#   "https://svn.mcs.anl.gov/repos/parallel-netcdf/trunk" \
-#   "git@github.com:live-clones/pnetcdf.git"
+# pnetcdf
+clone2git \
+  "https://svn.mcs.anl.gov/repos/parallel-netcdf/trunk" \
+  "git@github.com:live-clones/pnetcdf.git"
 
 # soundtouch
 clone2git \
-  "http://sourceforge.net/p/soundtouch/code/HEAD/tree/trunk/" \
+  "svn://svn.code.sf.net/p/soundtouch/code/trunk" \
   "git@github.com:live-clones/soundtouch.git"
