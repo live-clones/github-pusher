@@ -22,6 +22,7 @@ clone2git() {
 }
 
 # gmsh
+# Some files in SVN history are too large for GitHub.
 # clone2git \
 #   "https://geuz.org/svn/gmsh/trunk" \
 #   "git@github.com:live-clones/gmsh.git"
@@ -43,3 +44,10 @@ clone2git \
 clone2git \
   "svn://svn.code.sf.net/p/soundtouch/code/trunk" \
   "git@github.com:live-clones/soundtouch.git"
+
+# # texlive
+# # Cannot allocate memory: zlib (uncompress): buffer error: Decompression of
+# # svndiff data failed at /usr/share/perl5/Git/SVN/Ra.pm line 300.
+# clone2git \
+#   "svn://tug.org/texlive/trunk" \
+#   "git@github.com:live-clones/texlive.git"

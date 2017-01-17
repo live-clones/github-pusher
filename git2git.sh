@@ -37,6 +37,7 @@ clone2git \
   "git@github.com:live-clones/libadjoint.git"
 
 # # MOAB
+# # At least one file in Git history is larger than 50MB.
 # clone2git \
 #   "git@bitbucket.org:fathomteam/moab.git" \
 #   "git@github.com:live-clones/moab.git"
