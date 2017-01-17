@@ -1,5 +1,4 @@
 #!/bin/bash -ue
-#
 
 clone2git() {
   # replace / and : by - in the first argument $1
@@ -12,6 +11,7 @@ clone2git() {
   fi
 
   # pull
+  cd "$DIR" || exit 1
   git svn fetch
   git svn rebase
 
