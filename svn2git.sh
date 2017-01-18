@@ -13,7 +13,9 @@ clone2git() {
   # pull
   cd "$DIR" || exit 1
   git svn fetch
-  git svn rebase
+  # Suppress messages like
+  # > Current branch master is up to date.
+  git svn rebase > /dev/null
 
   # push
   # Set SSH agent variables.
