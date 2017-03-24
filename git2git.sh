@@ -26,6 +26,11 @@ clone2git \
   "https://nschloe@bitbucket.org/dolfin-adjoint/dolfin-adjoint.git" \
   "git@github.com:live-clones/dolfin-adjoint.git"
 
+# gmsh
+clone2git \
+  "http://gitlab.onelab.info/gmsh/gmsh.git" \
+  "git@github.com:live-clones/gmsh.git"
+
 # HDF5
 clone2git \
   "https://bitbucket.hdfgroup.org/scm/hdffv/hdf5.git" \

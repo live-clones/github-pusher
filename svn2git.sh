@@ -23,12 +23,6 @@ clone2git() {
   git push github master --tags -q
 }
 
-# gmsh
-# Some files in SVN history are too large for GitHub.
-# clone2git \
-#   "https://geuz.org/svn/gmsh/trunk" \
-#   "git@github.com:live-clones/gmsh.git"
-
 # luatex
 # https://foundry.supelec.fr/scm/?group_id=10
 # username: anonsvn
