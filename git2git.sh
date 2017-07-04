@@ -57,10 +57,10 @@ clone2git \
   "http://git.openttd.org/openttd/trunk.git/" \
   "git@github.com:live-clones/openttd.git"
 
-# # Pgfplots
-# clone2git \
-#   "git://git.code.sf.net/p/pgfplots/code" \
-#   "git@github.com:live-clones/pgfplots.git"
+# Pgfplots
+clone2git \
+  "git://git.code.sf.net/p/pgfplots/code" \
+  "git@github.com:live-clones/pgfplots.git"
 
 # Xdmf
 clone2git \
