@@ -1,4 +1,4 @@
-#!/bin/bash -ue
+#!/bin/bash -u
 
 clone2git() {
   # replace / and : by - in the first argument $1
@@ -40,6 +40,11 @@ clone2git \
 clone2git \
   "svn://svn.code.sf.net/p/soundtouch/code/trunk" \
   "git@github.com:live-clones/soundtouch.git"
+
+# scotch
+clone2git \
+  "svn://scm.gforge.inria.fr/svnroot/scotch/" \
+  "git@github.com:live-clones/scotch.git"
 
 # # texlive
 # # Cannot allocate memory: zlib (uncompress): buffer error: Decompression of
