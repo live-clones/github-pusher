@@ -1,4 +1,4 @@
-#!/bin/bash -ue
+#!/bin/bash -u
 #
 clone2git() {
   # replace / and : by - in the first argument $1
@@ -66,3 +66,12 @@ clone2git \
 clone2git \
   "git://public.kitware.com/Xdmf.git" \
   "git@github.com:live-clones/xdmf.git"
+
+# Next: Mercurial/hg
+# For this to work, git-remote-hg <https://github.com/felipec/git-remote-hg>
+# needs to be in the path
+
+# eigen
+clone2git \
+  "hg::https://bitbucket.org/eigen/eigen" \
+  "git@github.com:live-clones/eigen.git"
