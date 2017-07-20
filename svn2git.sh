@@ -28,7 +28,7 @@ clone2git() {
 # username: anonsvn
 # password: anonsvn
 clone2git \
-  "https://foundry.supelec.fr/svn/luatex/trunk" \
+  "https://serveur-svn.lri.fr/svn/modhel/luatex/trunk/" \
   "git@github.com:live-clones/luatex.git"
 
 # pnetcdf
