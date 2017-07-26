@@ -70,7 +70,10 @@ clone2git \
 # Next: Mercurial/hg
 # For this to work, git-remote-hg <https://github.com/felipec/git-remote-hg>
 # needs to be in the path
-
+# Example crontab line:
+#
+# 0 * * * * export PATH=/home/pi/rcs/git-remote-hg:$PATH; cd /home/pi/rcs/github-pusher/ && ./git2git.sh && ./svn2git.sh
+#
 # eigen
 clone2git \
   "hg::https://bitbucket.org/eigen/eigen" \
