@@ -77,4 +77,5 @@ clone2git \
 # eigen
 clone2git \
   "hg::https://bitbucket.org/eigen/eigen" \
-  "git@github.com:live-clones/eigen.git"
+  "git@github.com:live-clones/eigen.git" \
+  2> /dev/null
