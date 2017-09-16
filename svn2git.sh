@@ -12,7 +12,8 @@ clone2git() {
 
   # pull
   cd "$DIR" || exit 1
-  git svn fetch
+  # Supporess messages about added files
+  git svn fetch > /dev/null
   # Suppress messages like
   # > Current branch master is up to date.
   git svn rebase > /dev/null
