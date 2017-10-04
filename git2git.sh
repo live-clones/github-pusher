@@ -23,7 +23,7 @@ clone2git() {
 
 # dolfin-adjoint
 clone2git \
-  "https://nschloe@bitbucket.org/dolfin-adjoint/dolfin-adjoint.git" \
+  "https://bitbucket.org/dolfin-adjoint/dolfin-adjoint.git" \
   "git@github.com:live-clones/dolfin-adjoint.git"
 
 # gmsh
@@ -38,7 +38,7 @@ clone2git \
 
 # libadjoint
 clone2git \
-  "https://nschloe@bitbucket.org/dolfin-adjoint/libadjoint.git" \
+  "https://bitbucket.org/dolfin-adjoint/libadjoint.git" \
   "git@github.com:live-clones/libadjoint.git"
 
 # # MOAB
@@ -49,22 +49,22 @@ clone2git \
 
 # Netgen
 clone2git \
-  "git://git.code.sf.net/p/netgen-mesher/git" \
+  "https://git.code.sf.net/p/netgen-mesher/git" \
   "git@github.com:live-clones/netgen.git"
 
 # OpenTTD
 clone2git \
-  "http://git.openttd.org/openttd/trunk.git/" \
+  "https://git.openttd.org/openttd/trunk.git/" \
   "git@github.com:live-clones/openttd.git"
 
 # Pgfplots
 clone2git \
-  "git://git.code.sf.net/p/pgfplots/code" \
+  "https://git.code.sf.net/p/pgfplots/code" \
   "git@github.com:live-clones/pgfplots.git"
 
 # Xdmf
 clone2git \
-  "git://public.kitware.com/Xdmf.git" \
+  "https://gitlab.kitware.com/xdmf/xdmf.git" \
   "git@github.com:live-clones/xdmf.git"
 
 # Next: Mercurial/hg
