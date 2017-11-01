@@ -41,8 +41,13 @@ clone2git \
   "https://bitbucket.org/dolfin-adjoint/libadjoint.git" \
   "git@github.com:live-clones/libadjoint.git"
 
+# lintian
+clone2git \
+  "https://anonscm.debian.org/git/lintian/lintian.git" \
+  "git@github.com:live-clones/lintian.git"
+
 # # MOAB
-# # At least one file in Git history is larger than 50MB.
+# # At least one file in Git history is larger than 100MB.
 # clone2git \
 #   "git@bitbucket.org:fathomteam/moab.git" \
 #   "git@github.com:live-clones/moab.git"
