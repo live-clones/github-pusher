@@ -36,6 +36,11 @@ clone2git \
   "https://bitbucket.hdfgroup.org/scm/hdffv/hdf5.git" \
   "git@github.com:live-clones/hdf5.git"
 
+# launchpad
+clone2git \
+  "https://git.launchpad.net/launchpad" \
+  "git@github.com:live-clones/launchpad.git"
+
 # libadjoint
 clone2git \
   "https://bitbucket.org/dolfin-adjoint/libadjoint.git" \
