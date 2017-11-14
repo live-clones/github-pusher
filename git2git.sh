@@ -72,6 +72,11 @@ clone2git \
   "https://git.code.sf.net/p/pgfplots/code" \
   "git@github.com:live-clones/pgfplots.git"
 
+# Pybtex
+clone2git \
+  "https://bitbucket.org/pybtex-devs/pybtex.git" \
+  "git@github.com:live-clones/pybtex.git"
+
 # Xdmf
 clone2git \
   "https://gitlab.kitware.com/xdmf/xdmf.git" \
