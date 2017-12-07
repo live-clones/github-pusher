@@ -24,12 +24,6 @@ clone2git() {
   git push github master --tags -q
 }
 
-
-# astyle
-clone2git \
-  "https://svn.code.sf.net/p/astyle/code/trunk" \
-  "git@github.com:live-clones/astyle.git"
-
 # luatex
 # https://foundry.supelec.fr/scm/?group_id=10
 # username: anonsvn
