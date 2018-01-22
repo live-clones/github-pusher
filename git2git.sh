@@ -21,6 +21,11 @@ clone2git() {
   git push --mirror -q
 }
 
+# recalbox
+clone2git \
+  "https://gitlab.com/recalbox/recalbox.git" \
+  "git@github.com:live-clones/recalbox.git"
+
 # dolfin-adjoint
 clone2git \
   "https://bitbucket.org/dolfin-adjoint/dolfin-adjoint.git" \
@@ -28,7 +33,7 @@ clone2git \
 
 # gmsh
 clone2git \
-  "http://gitlab.onelab.info/gmsh/gmsh.git" \
+  "https://gitlab.onelab.info/gmsh/gmsh.git" \
   "git@github.com:live-clones/gmsh.git"
 
 # HDF5
@@ -88,9 +93,3 @@ clone2git \
 # Example crontab line:
 #
 # 0 * * * * export PATH=/home/pi/rcs/git-remote-hg:$PATH; cd /home/pi/rcs/github-pusher/ && ./git2git.sh && ./svn2git.sh
-#
-# eigen
-clone2git \
-  "hg::https://bitbucket.org/eigen/eigen" \
-  "git@github.com:live-clones/eigen.git" \
-  2> /dev/null
