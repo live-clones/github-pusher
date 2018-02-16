@@ -93,3 +93,8 @@ clone2git \
 # Example crontab line:
 #
 # 0 * * * * export PATH=/home/pi/rcs/git-remote-hg:$PATH; cd /home/pi/rcs/github-pusher/ && ./git2git.sh && ./svn2git.sh
+
+# blas++
+clone2git \
+  "hg::https://bitbucket.org/icl/blaspp" \
+  "git@github.com:live-clones/blaspp.git"
