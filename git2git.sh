@@ -21,6 +21,11 @@ clone2git() {
   git push --mirror -q
 }
 
+# dolfin
+clone2git \
+  "https://bitbucket.org/fenics-project/dolfin.git" \
+  "git@github.com:live-clones/dolfin.git"
+
 # recalbox
 clone2git \
   "https://gitlab.com/recalbox/recalbox.git" \
@@ -66,11 +71,6 @@ clone2git \
 clone2git \
   "https://git.code.sf.net/p/netgen-mesher/git" \
   "git@github.com:live-clones/netgen.git"
-
-# OpenTTD
-clone2git \
-  "https://git.openttd.org/openttd/trunk.git/" \
-  "git@github.com:live-clones/openttd.git"
 
 # Pgfplots
 clone2git \
