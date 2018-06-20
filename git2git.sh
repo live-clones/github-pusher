@@ -58,7 +58,7 @@ clone2git \
 
 # lintian
 clone2git \
-  "https://anonscm.debian.org/git/lintian/lintian.git" \
+  "https://salsa.debian.org/lintian/lintian.git" \
   "git@github.com:live-clones/lintian.git"
 
 # # MOAB
