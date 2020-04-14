@@ -47,9 +47,10 @@ clone2git \
   "git@github.com:live-clones/hdf5.git"
 
 # launchpad
-clone2git \
-  "https://git.launchpad.net/launchpad" \
-  "git@github.com:live-clones/launchpad.git"
+# don't clone that since the checkout is SO big (8 GB)
+# clone2git \
+#   "https://git.launchpad.net/launchpad" \
+#   "git@github.com:live-clones/launchpad.git"
 
 # libadjoint
 clone2git \
@@ -94,7 +95,7 @@ clone2git \
 #
 # 0 * * * * export PATH=/home/pi/rcs/git-remote-hg:$PATH; cd /home/pi/rcs/github-pusher/ && ./git2git.sh && ./svn2git.sh
 
-# blas++
-clone2git \
-  "hg::https://bitbucket.org/icl/blaspp" \
-  "git@github.com:live-clones/blaspp.git"
+# # blas++
+# clone2git \
+#   "hg::https://bitbucket.org/icl/blaspp" \
+#   "git@github.com:live-clones/blaspp.git"
