@@ -28,19 +28,21 @@ clone2git() {
 # https://foundry.supelec.fr/scm/?group_id=10
 # username: anonsvn
 # password: anonsvn
-clone2git \
-  "https://serveur-svn.lri.fr/svn/modhel/luatex/trunk/" \
-  "git@github.com:live-clones/luatex.git"
+# This is now at https://github.com/TeX-Live/luatex
+# clone2git \
+#   "https://serveur-svn.lri.fr/svn/modhel/luatex/trunk/" \
+#   "git@github.com:live-clones/luatex.git"
 
 # pnetcdf
-clone2git \
-  "https://svn.mcs.anl.gov/repos/parallel-netcdf/trunk" \
-  "git@github.com:live-clones/pnetcdf.git"
+# This is now at <https://github.com/Parallel-NetCDF/PnetCDF>
+# clone2git \
+#   "https://svn.mcs.anl.gov/repos/parallel-netcdf/trunk" \
+#   "git@github.com:live-clones/pnetcdf.git"
 
 # soundtouch
-clone2git \
-  "svn://svn.code.sf.net/p/soundtouch/code/trunk" \
-  "git@github.com:live-clones/soundtouch.git"
+# clone2git \
+#   "svn://svn.code.sf.net/p/soundtouch/code/trunk" \
+#   "git@github.com:live-clones/soundtouch.git"
 
 # scotch
 clone2git \
