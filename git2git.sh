@@ -78,11 +78,6 @@ clone2git \
   "https://git.code.sf.net/p/netgen-mesher/git" \
   "git@github.com:live-clones/netgen.git"
 
-# Pgfplots
-clone2git \
-  "https://git.code.sf.net/p/pgfplots/code" \
-  "git@github.com:live-clones/pgfplots.git"
-
 # Pybtex
 clone2git \
   "https://bitbucket.org/pybtex-devs/pybtex.git" \
