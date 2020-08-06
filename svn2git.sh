@@ -49,6 +49,11 @@ clone2git \
   "svn://scm.gforge.inria.fr/svnroot/scotch/" \
   "git@github.com:live-clones/scotch.git"
 
+# docutils
+clone2git \
+  "svn://svn.code.sf.net/p/docutils/code/trunk" \
+  "git@github.com:live-clones/docutils.git"
+
 # # texlive
 # # Cannot allocate memory: zlib (uncompress): buffer error: Decompression of
 # # svndiff data failed at /usr/share/perl5/Git/SVN/Ra.pm line 300.

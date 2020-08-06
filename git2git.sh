@@ -21,6 +21,11 @@ clone2git() {
   git push --mirror -q
 }
 
+# eigen
+clone2git \
+  "https://gitlab.com/libeigen/eigen.git" \
+  "git@github.com:live-clones/eigen.git"
+
 # dolfin
 clone2git \
   "https://bitbucket.org/fenics-project/dolfin.git" \
