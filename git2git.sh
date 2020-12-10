@@ -46,10 +46,11 @@ clone2git \
   "https://gitlab.onelab.info/gmsh/gmsh.git" \
   "git@github.com:live-clones/gmsh.git"
 
-# HDF5
-clone2git \
-  "https://bitbucket.hdfgroup.org/scm/hdffv/hdf5.git" \
-  "git@github.com:live-clones/hdf5.git"
+# # HDF5
+# It's on gh now. https://github.com/HDFGroup
+# clone2git \
+#   "https://bitbucket.hdfgroup.org/scm/hdffv/hdf5.git" \
+#   "git@github.com:live-clones/hdf5.git"
 
 # launchpad
 # don't clone that since the checkout is SO big (8 GB)
@@ -87,6 +88,12 @@ clone2git \
 clone2git \
   "https://gitlab.kitware.com/xdmf/xdmf.git" \
   "git@github.com:live-clones/xdmf.git"
+
+# ChkTeX
+clone2git \
+  "https://git.savannah.gnu.org/git/chktex.git" \
+  "git@github.com:live-clones/chktex.git"
+
 
 # Next: Mercurial/hg
 # For this to work, git-remote-hg <https://github.com/felipec/git-remote-hg>
