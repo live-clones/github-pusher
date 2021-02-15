@@ -94,6 +94,10 @@ clone2git \
   "https://git.savannah.gnu.org/git/chktex.git" \
   "git@github.com:live-clones/chktex.git"
 
+clone2git \
+  "https://bitbucket.org/blaze-lib/blaze.git" \
+  "git@github.com:live-clones/blaze.git"
+
 
 # Next: Mercurial/hg
 # For this to work, git-remote-hg <https://github.com/felipec/git-remote-hg>
