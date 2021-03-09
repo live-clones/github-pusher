@@ -98,10 +98,6 @@ clone2git \
   "https://bitbucket.org/blaze-lib/blaze.git" \
   "git@github.com:live-clones/blaze.git"
 
-clone2git \
-  "https://gitlab.kitware.com/paraview/paraview.git" \
-  "git@github.com:live-clones/paraview.git"
-
 
 # Next: Mercurial/hg
 # For this to work, git-remote-hg <https://github.com/felipec/git-remote-hg>
