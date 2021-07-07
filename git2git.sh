@@ -99,9 +99,10 @@ clone2git \
   "git@github.com:live-clones/blaze.git"
 
 # XeTeX
-clone2git \
-  "https://git.code.sf.net/p/xetex/code" \
-  "git@github.com:live-clones/xetex.git"
+# There is already a semi-official mirror of the TeX Live project at https://github.com/tex-live/xetex
+# clone2git \
+#   "https://git.code.sf.net/p/xetex/code" \
+#   "git@github.com:live-clones/xetex.git"
 
 
 
