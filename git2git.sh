@@ -98,6 +98,12 @@ clone2git \
   "https://bitbucket.org/blaze-lib/blaze.git" \
   "git@github.com:live-clones/blaze.git"
 
+# XeTeX
+clone2git \
+  "https://git.code.sf.net/p/xetex/code" \
+  "git@github.com:live-clones/xetex.git"
+
+
 
 # Next: Mercurial/hg
 # For this to work, git-remote-hg <https://github.com/felipec/git-remote-hg>
