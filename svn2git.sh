@@ -44,11 +44,6 @@ clone2git() {
 #   "svn://svn.code.sf.net/p/soundtouch/code/trunk" \
 #   "git@github.com:live-clones/soundtouch.git"
 
-# scotch
-clone2git \
-  "svn://scm.gforge.inria.fr/svnroot/scotch/" \
-  "git@github.com:live-clones/scotch.git"
-
 # docutils
 clone2git \
   "svn://svn.code.sf.net/p/docutils/code/trunk" \

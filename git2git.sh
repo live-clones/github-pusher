@@ -98,6 +98,10 @@ clone2git \
   "https://bitbucket.org/blaze-lib/blaze.git" \
   "git@github.com:live-clones/blaze.git"
 
+clone2git \
+  "https://gitlab.inria.fr/scotch/scotch.git" \
+  "git@github.com:live-clones/scotch.git"
+
 # XeTeX
 # There is already a semi-official mirror of the TeX Live project at https://github.com/tex-live/xetex
 # clone2git \
