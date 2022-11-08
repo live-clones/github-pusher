@@ -4,12 +4,6 @@ from git import Repo
 
 for name, source_git, target_git in [
     (
-        # At least one file in Git history is larger than 100MB.
-        "moab",
-        "https://bitbucket.org/fathomteam/moab.git",
-        "git@github.com:live-clones/moab.git",
-    ),
-    (
         "eigen",
         "https://gitlab.com/libeigen/eigen.git",
         "git@github.com:live-clones/eigen.git",
@@ -59,6 +53,16 @@ for name, source_git, target_git in [
         "https://gitlab.inria.fr/scotch/scotch.git",
         "git@github.com:live-clones/scotch.git",
     ),
+    (
+        # Before pushing, we have to remove a file with
+        # ```
+        # bfg --delete-files rtttest2.rttt
+        # ```
+        # since it's larger than 100 MB (GitHub won't allow it).
+        "moab",
+        "https://bitbucket.org/fathomteam/moab.git",
+        "git@github.com:live-clones/moab.git",
+    ),
 ]:
     print(f"{name}...")
     # replace / and : by - in the first argument $1
@@ -79,7 +83,9 @@ for name, source_git, target_git in [
         repo.create_remote("github", url=target_git)
 
     # pull from source
+    print("Fetch...")
     repo.remotes["origin"].fetch()
 
     # push to GitHub
+    print("Push...")
     repo.remotes["github"].push(mirror=True)
