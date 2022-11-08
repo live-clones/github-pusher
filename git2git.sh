@@ -72,9 +72,9 @@ clone2git \
 
 # # MOAB
 # # At least one file in Git history is larger than 100MB.
-# clone2git \
-#   "git@bitbucket.org:fathomteam/moab.git" \
-#   "git@github.com:live-clones/moab.git"
+clone2git \
+  "git@bitbucket.org:fathomteam/moab.git" \
+  "git@github.com:live-clones/moab.git"
 
 # Netgen
 # 2022-11-06: This is now at <https://github.com/live-clones/netgen>
