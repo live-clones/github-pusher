@@ -75,9 +75,10 @@ clone2git \
 #   "git@github.com:live-clones/moab.git"
 
 # Netgen
-clone2git \
-  "https://git.code.sf.net/p/netgen-mesher/git" \
-  "git@github.com:live-clones/netgen.git"
+# 2022-11-06: This is now at <https://github.com/live-clones/netgen>
+# clone2git \
+#   "https://git.code.sf.net/p/netgen-mesher/git" \
+#   "git@github.com:live-clones/netgen.git"
 
 # Pybtex
 clone2git \
