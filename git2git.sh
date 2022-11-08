@@ -37,9 +37,10 @@ clone2git \
   "git@github.com:live-clones/recalbox.git"
 
 # dolfin-adjoint
-clone2git \
-  "https://bitbucket.org/dolfin-adjoint/dolfin-adjoint.git" \
-  "git@github.com:live-clones/dolfin-adjoint.git"
+# This <https://github.com/dolfin-adjoint/pyadjoint> seems like a better option
+# clone2git \
+#   "https://bitbucket.org/dolfin-adjoint/dolfin-adjoint.git" \
+#   "git@github.com:live-clones/dolfin-adjoint.git"
 
 # gmsh
 clone2git \
@@ -59,9 +60,10 @@ clone2git \
 #   "git@github.com:live-clones/launchpad.git"
 
 # libadjoint
-clone2git \
-  "https://bitbucket.org/dolfin-adjoint/libadjoint.git" \
-  "git@github.com:live-clones/libadjoint.git"
+# This <https://github.com/dolfin-adjoint/pyadjoint> seems like a better option
+# clone2git \
+#   "https://bitbucket.org/dolfin-adjoint/libadjoint.git" \
+#   "git@github.com:live-clones/libadjoint.git"
 
 # lintian
 clone2git \
@@ -108,8 +110,6 @@ clone2git \
 # clone2git \
 #   "https://git.code.sf.net/p/xetex/code" \
 #   "git@github.com:live-clones/xetex.git"
-
-
 
 # Next: Mercurial/hg
 # For this to work, git-remote-hg <https://github.com/felipec/git-remote-hg>
