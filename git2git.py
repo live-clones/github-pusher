@@ -4,6 +4,16 @@ from git import Repo
 
 for name, source_git, target_git in [
     (
+        "nala",
+        "https://gitlab.com/volian/nala.git",
+        "git@github.com:live-clones/nala.git",
+    ),
+    (
+        "apt",
+        "https://salsa.debian.org/apt-team/apt",
+        "git@github.com:live-clones/apt.git",
+    ),
+    (
         "eigen",
         "https://gitlab.com/libeigen/eigen.git",
         "git@github.com:live-clones/eigen.git",
