@@ -30,8 +30,8 @@ for name, source_git, target_git in [
     ),
     (
         "gmsh",
-        "https://gitlab.com/recalbox/recalbox.git",
-        "git@github.com:live-clones/recalbox.git",
+        "https://gitlab.onelab.info/gmsh/gmsh.git",
+        "git@github.com:live-clones/gmsh.git",
     ),
     (
         "linitian",
