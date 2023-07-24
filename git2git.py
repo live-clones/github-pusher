@@ -1,5 +1,5 @@
 from pathlib import Path
-from git import Repo
+from git import Repo, GitCommandError
 
 
 for name, source_git, target_git in [
@@ -98,4 +98,8 @@ for name, source_git, target_git in [
 
     # push to GitHub
     print("Push...")
-    repo.remotes["github"].push(mirror=True)
+    try:
+        repo.remotes["github"].push(mirror=True)
+    except GitCommandError as e:
+        print(e)
+        pass
