@@ -93,11 +93,11 @@ for name, source_git, target_git in [
         repo.create_remote("github", url=target_git)
 
     # pull from source
-    print("Fetch...")
+    print("    Fetch...")
     repo.remotes["origin"].fetch()
 
     # push to GitHub
-    print("Push...")
+    print("    Push...")
     try:
         repo.remotes["github"].push(mirror=True)
     except GitCommandError as e:
