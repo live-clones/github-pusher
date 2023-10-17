@@ -3,6 +3,16 @@ from git import Repo, GitCommandError
 
 
 for name, source_git, target_git in [
+    # (
+    #     "fuchsia",
+    #     "https://fuchsia.googlesource.com/fuchsia",
+    #     "git@github.com:live-clones/fuchsia.git",
+    # ),
+    (
+        "beautifulsoup",
+        "https://git.launchpad.net/beautifulsoup",
+        "git@github.com:live-clones/beautifulsoup.git",
+    ),
     (
         "nala",
         "https://gitlab.com/volian/nala.git",
