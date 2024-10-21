@@ -33,11 +33,11 @@ for name, source_git, target_git in [
         "https://bitbucket.org/fenics-project/dolfin.git",
         "git@github.com:live-clones/dolfin.git",
     ),
-    (
-        "recalbox",
-        "https://gitlab.com/recalbox/recalbox.git",
-        "git@github.com:live-clones/recalbox.git",
-    ),
+    # (
+    #     "recalbox",
+    #     "https://gitlab.com/recalbox/recalbox.git",
+    #     "git@github.com:live-clones/recalbox.git",
+    # ),
     (
         "gmsh",
         "https://gitlab.onelab.info/gmsh/gmsh.git",
@@ -73,15 +73,20 @@ for name, source_git, target_git in [
         "https://gitlab.inria.fr/scotch/scotch.git",
         "git@github.com:live-clones/scotch.git",
     ),
+    # (
+    #     # Before pushing, we have to remove a file with
+    #     # ```
+    #     # bfg --delete-files rtttest2.rttt
+    #     # ```
+    #     # since it's larger than 100 MB (GitHub won't allow it).
+    #     "moab",
+    #     "https://bitbucket.org/fathomteam/moab.git",
+    #     "git@github.com:live-clones/moab.git",
+    # ),
     (
-        # Before pushing, we have to remove a file with
-        # ```
-        # bfg --delete-files rtttest2.rttt
-        # ```
-        # since it's larger than 100 MB (GitHub won't allow it).
-        "moab",
-        "https://bitbucket.org/fathomteam/moab.git",
-        "git@github.com:live-clones/moab.git",
+        "wlroots",
+        "https://gitlab.freedesktop.org/wlroots/wlroots.git",
+        "git@github.com:live-clones/wlroots.git",
     ),
 ]:
     print(f"{name}...")
