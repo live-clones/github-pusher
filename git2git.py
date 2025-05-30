@@ -88,6 +88,17 @@ for name, source_git, target_git in [
         "https://gitlab.freedesktop.org/wlroots/wlroots.git",
         "git@github.com:live-clones/wlroots.git",
     ),
+    (
+        "ghostscript",
+        "git://git.ghostscript.com/ghostpdl.git",
+        "git@github.com:live-clones/ghostscript.git",
+    ),
+    # fails for some reason:
+    # (
+    #     "forgejo",
+    #     "https://codeberg.org/forgejo/forgejo.git",
+    #     "git@github.com:live-clones/forgejo.git",
+    # )
 ]:
     print(f"{name}...")
     # replace / and : by - in the first argument $1
